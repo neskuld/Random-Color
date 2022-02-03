@@ -18,6 +18,7 @@ export const Header = styled.div`
     height: 15%;
     border-bottom: 1px solid #000000;
     justify-content: space-between;
+    padding: 0% 3%;
 
     @media (max-width: 767px) {
         flex-direction: column;
@@ -36,7 +37,6 @@ export const Title = styled.div`
 
     #hex-icon {
         padding-right: 10px;
-        padding-left: 50px;
     }
 
     @media (max-width: 767px) {
@@ -50,17 +50,21 @@ export const Title = styled.div`
         justify-content: center;
         margin-bottom: 10px;
     }
+
+    @media (max-width: 350px) {
+        font-size: 16pt;
+        margin-bottom: 20px;
+    }
 `
 
 export const LinksDiv = styled.div`
     display: flex;
     flex-direction: row;
-    padding-right: 50px;
 
     @media (max-width: 767px) {
         justify-content: center;
         padding-right: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 `
 
