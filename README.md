@@ -1,4 +1,6 @@
-### Random Color Generator
+### [Random Color Generator](https://random-color-neon.vercel.app/)
+
+
 
 I came across this sweet function while browsing the internet:
 
